@@ -18,7 +18,9 @@
       "type": "blocks"
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "coverImage": {
       "type": "media",
@@ -29,6 +31,12 @@
         "videos",
         "audios"
       ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "readTime": {
+      "type": "string"
     },
     "author": {
       "type": "string"
